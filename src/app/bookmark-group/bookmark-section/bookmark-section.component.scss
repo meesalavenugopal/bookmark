@@ -1,0 +1,75 @@
+.section-light {
+    position: relative;
+    z-index: 1;
+    background: #ffffff;
+    padding: 5rem 0px 5rem 0px;
+}
+
+.section-light::before {
+    top: 0px;
+    left: 50%;
+    content: "";
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    pointer-events: none;
+    margin-left: -25px;
+    border-width: 25px;
+    border-style: solid;
+    border-color: #eceff1 rgba(0, 120, 207, 0) rgba(0, 120, 207, 0);
+    border-image: initial;
+}
+
+.section-light a {
+    color: inherit;
+}
+
+.resource-card {
+    display: flex;
+    height: 120px;
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    padding: 25px;
+    overflow: hidden;
+}
+
+.resource-card img {
+    width: 40px;
+    height: 40px;
+    margin-right: 14px;
+}
+
+.resource-card h3 {
+    font-size: 21px;
+    margin-bottom: 3px;
+}
+
+
+// section dark
+.section-dark {
+    position: relative;
+    z-index: 1;
+    background: rgb(236, 239, 241);
+    padding: 5rem 0px 5rem 0px;
+}
+
+.section-dark::before {
+    top: 0px;
+    left: 50%;
+    content: "";
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    pointer-events: none;
+    margin-left: -25px;
+    border-width: 25px;
+    border-style: solid;
+    border-color: #ffffff rgba(0, 120, 207, 0) rgba(0, 120, 207, 0);
+    border-image: initial;
+}
+
+.section-dark a {
+    color: inherit;
+}

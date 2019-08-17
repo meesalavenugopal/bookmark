@@ -1,0 +1,7 @@
+<bookmark-section 
+    *ngFor="let section of sections; let i = index"
+    [section_header]="section.name" 
+    [bookmarks]="section.bookmarks"
+    [isLight]="i%2 === 0"
+>
+</bookmark-section>

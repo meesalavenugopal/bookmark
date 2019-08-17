@@ -1,0 +1,21 @@
+.sticky-footer {
+    background: #3b4043;
+}
+
+.inline-ul{
+    list-style: none;
+}
+
+.inline-ul > li {
+    display: inline;
+    margin-left: 2%;
+}
+
+.inline-ul > li > a {
+    color: #8c9194;
+}
+
+.inline-ul > li > a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}

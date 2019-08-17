@@ -1,1 +1,69 @@
 /* You can add global styles to this file, and also import other style files */
+
+// ##### THEME #####
+.theme-text-orange {
+    color: #e67e22 !important;
+}
+
+// ##### BUTTONS #####
+.btn-full:link, .btn-full:visited {
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.btn-ghost:link, .btn-ghost:visited {
+    border: 1px solid #e67e22;
+    color: #e67e22;
+}
+
+.btn:hover, .btn:active {
+    background-color: #cf6d17;
+    color: #fff;
+}
+
+.btn-full:hover, .btn-full:hover {
+    border: 1px solid #cf6d17;
+}
+
+.btn-ghost:hover, .btn-ghost:hover {
+    border: 1px solid #cf6d17;
+    color: #fff;
+}
+
+.btn-outline-success {
+    border-color: #cf6d17 !important;
+    color: #cf6d17 !important;
+}
+
+.btn-outline-success:hover{
+    background-color: #cf6d17 !important;
+    color: #fff !important;
+}
+
+// ##### PADDING #####
+.pt-1p {
+    padding: 1% 0 0 0;
+}
+
+
+// ##### MARGIN #####
+.mr-7p {
+    margin: 7%;
+}
+
+.mt-7 {
+    margin-top: 7%;
+}
+
+
+// ##### BOARDER #####
+.br-4 {
+    border-radius: 4px;
+}
+
+// ##### SHADOWS #####
+.box-shadow {
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 3px 1px -2px rgba(0,0,0,0.12);
+}
